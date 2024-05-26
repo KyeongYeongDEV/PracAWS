@@ -36,8 +36,6 @@ function SignUp(){
           return ;
         }
         
-              
-        
         const res = await axios.post(sendEamilApiUrl,{
             userEmail : userEmail
         });
